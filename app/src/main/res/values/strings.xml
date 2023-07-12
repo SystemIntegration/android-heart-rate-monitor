@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Heart Rate</string>
+    <string name="output_hint"> How to Scan? \n\n\n While scanning place your index finger on the rear camera. \n \n Better to keep your hand on any flat surface. \n\n Don\'t move your finger, Don\'t press too hard. \n </string>
+    <string name="startScan">Start Scan</string>
+    <string name="scanAgainStr">Scan again</string>
+    <string name="camera_not_found">Camera not available.</string>
+    <string name="startingScan">Starting scan</string>
+    <string name="cameraPermissionRequired">Camera permission is required for this application to work.</string>
+    <string name="on">\u0020 on \u0020</string>
+    <string name="noFlashWarning">Measurement without flash is less reliable.</string>
+    <string name="calculating">Calculating</string>
+    <string name="bpm">BPM</string>
+</resources>

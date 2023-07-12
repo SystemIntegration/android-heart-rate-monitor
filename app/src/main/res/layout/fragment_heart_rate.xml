@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/main_color_5"
+    android:orientation="vertical">
+
+        <TextureView
+            android:id="@+id/graphTextureView"
+            android:layout_width="match_parent"
+            android:layout_height="59dp" />
+
+        <TextureView
+            android:id="@+id/cameraTextureView"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+
+        <TextView
+            android:id="@+id/txtScanValue"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginStart="32dp"
+            android:gravity="center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="@color/main_color_4"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/output_hint"
+            android:padding="10dp"
+            android:textColor="@color/main_color_4"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/startScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_1"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/startScan" />
+
+</LinearLayout>
